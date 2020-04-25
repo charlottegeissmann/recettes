@@ -214,8 +214,10 @@ border-bottom:1px solid white;
 /*Skills * Hobbies*/
 
 .skills-list {
-  display: flex;
+  display: grid;
   margin-top: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px 0px;
 }
 
 .skill-block {
