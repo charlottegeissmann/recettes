@@ -59,7 +59,7 @@
   padding-top: 2.5px;
   padding-bottom: 2.5px;
   text-align: center;
-  background-color: #b93d2a;
+  background-color: #562929;
   color: white;
   justify-content: space-between;
 }
@@ -231,13 +231,10 @@ border-bottom:1px solid white;
   margin: 0 0.75rem;
   padding: 2rem;
   background-color: #ffffff;
-  box-shadow: 1px 1px 3px rgb(185, 61, 41);
+  box-shadow: 1px 1px 3px #84221a;
   border-radius: 3px;
 }
 
-.skill-block:hover {
-  box-shadow: 6px 2px 9px rgb(185, 61, 41);
-}
 
 .hobbies-block {
   margin: 0 0.75rem;
