@@ -1,7 +1,7 @@
 /*Container*/
 
 .container {
-  width: 900px; /* set the width of your container */
+  width: 1000px auto; /* set the width of your container */
   margin: 10px auto; /* set margins: top/bottom: 40px; left/right: automatic */
 }
 
@@ -75,8 +75,8 @@
   /*border-bottom:1px solid #bcbcbc;*/
 }
 
-.awards {         
-  color: #8a1c13; 
+.awards {
+  color: #8a1c13;
   font-family: Lucida, serif;
   font-weight: bold;
   font-size: 14px;
