@@ -1,7 +1,7 @@
 /*Container*/
 
 .container {
-  width: 1000px auto; /* set the width of your container */
+  width: 900px auto; /* set the width of your container */
   margin: 10px auto; /* set margins: top/bottom: 40px; left/right: automatic */
 }
 
@@ -12,11 +12,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 3px rgb(185, 61, 41);
     border-radius: 6px;
     flex-basis: 250px;
     flex-grow: 1;
     margin: 20px;
+}
+
+.card-white:hover {
+  box-shadow: 6px 2px 9px rgb(185, 61, 41);
 }
 
 .cards {
@@ -65,14 +69,21 @@
 
  .card-sidebar a {
   color: white;
-  padding-left: 30px;
+  margin-left: 30px;
   position: relative;
   text-transform: uppercase;
 }
 
  .card-sidebar a:hover {
   color: #381710;
-  /*border-bottom:1px solid #bcbcbc;*/
+}
+
+#border:hover {
+  color: #381710;
+  border-bottom: #381710;
+  border-bottom-style: solid;
+  border-top: #381710;
+  border-top-style: solid;
 }
 
 .awards {
@@ -190,7 +201,6 @@ border-bottom:1px solid white;
   /* margin: 20px; */
 }
 
-
 .block-text {
   background-color: #ffffff;
   padding: 2rem;
@@ -199,15 +209,6 @@ border-bottom:1px solid white;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-
-.block-image {
-    max-width: 35rem;
-    width: 400px;
-    min-height: 100%;
-    max-height: 37.5rem;
-    object-fit: cover;
 }
 
 /*Skills * Hobbies*/
@@ -221,8 +222,12 @@ border-bottom:1px solid white;
   margin: 0 0.75rem;
   padding: 2rem;
   background-color: #ffffff;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
-  border-radius: 6px;
+  box-shadow: 1px 1px 3px rgb(185, 61, 41);
+  border-radius: 3px;
+}
+
+.skill-block:hover {
+  box-shadow: 6px 2px 9px rgb(185, 61, 41);
 }
 
 .hobbies-block {
