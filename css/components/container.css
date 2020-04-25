@@ -217,8 +217,8 @@ border-bottom:1px solid white;
 .skills-list {
   display: grid;
   margin-top: 1.5rem;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 20px 0pxv;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-gap: 20px 0px;
 }
 
 .skill-block {
